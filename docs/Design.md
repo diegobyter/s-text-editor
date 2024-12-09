@@ -1,6 +1,9 @@
 # **Design Document**
 
+> Descrição da arquitetura, fluxos de tela e wireframes (com imagens da pasta `assets/`).
+
 ## Índice
+
 1. [Introdução](#1-introducao**)
 2. [Introdução](#2-estrutura-de-design)
    - [Paleta de Cores](#21-paleta-de-cores)

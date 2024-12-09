@@ -1,5 +1,7 @@
 # **Software Requirements Specification**
 
+> Documento de requisitos, contendo todas as especificações funcionais e não funcionais.
+
 ## **1. Introdução**
 
 ### **1.1. Propósito**

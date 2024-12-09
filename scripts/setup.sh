@@ -1,0 +1,1 @@
+#Configurações iniciais (instalação de dependências, setup do ambiente).
