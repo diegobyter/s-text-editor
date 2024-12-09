@@ -12,7 +12,7 @@
 5. [Diagramas e Mockups](#5.-diagramas-e-mockups)
 6. [Considerações de Estilo](#6.-considerações-de-estilo)
 
-## **1. Introdução**
+## **Introdução**
 
 Este documento descreve o design da interface do usuário para o projeto **S Text Editor**, um editor de texto simples, intuitivo e acessível. O design segue princípios de usabilidade, organização visual e harmonia cromática, com foco em melhorar a experiência do usuário.
 
