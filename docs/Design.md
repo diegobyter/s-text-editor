@@ -1,5 +1,17 @@
 # **Design Document**
 
+## Índice
+1. [Introdução](#1.-introducao)
+2. [Introdução](#2.-estrutura-de-design)
+  - [Paleta de Cores](#2.1.-paleta-de-cores)
+  - [Estrutura da Interface](#2.2.-estrutura-da-interface)
+3. [Introdução](#3.-fluxo-de-interacao)
+  - [Fluxo "Criar, Abrir, Salvar...](#3.1.-fluxo-"criar,-abrir,-salvar-e-salvar-documento-como")
+  - [Fluxo "Pesquisar Palavras"](#3.2.-fluxo-"pesquisar-palavras")
+4. [Introdução](#4.-design-responsivo)
+5. [Diagramas e Mockups](#5.-diagramas-e-mockups)
+6. [Considerações de Estilo](#6.-considerações-de-estilo)
+
 ## **1. Introdução**
 
 Este documento descreve o design da interface do usuário para o projeto **S Text Editor**, um editor de texto simples, intuitivo e acessível. O design segue princípios de usabilidade, organização visual e harmonia cromática, com foco em melhorar a experiência do usuário.
@@ -20,7 +32,7 @@ As cores utilizadas no design visam proporcionar uma interface moderna, com cont
 | Neon             | #4DF731         | Cor neon (efeito visual) |
 | Green Secondary  | #2A7A50         | Verde secundário         |
 | Green Primary    | #184E38         | Verde primário           |
-| Blue             | #74C4EE         | Azul seleção             |
+| Blue Selection   | #74C4EE         | Azul seleção             |
 | Dark Secondary   | #3A3533         | Cinza escuro secundário  |
 | Dark Primary     | #212121         | Cinza escuro primário    |
 | Transparent Dark | #212121 (85%)   | Fundo translúcido        |
