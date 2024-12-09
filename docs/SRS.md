@@ -116,6 +116,44 @@ O aplicativo deve ser leve, utilizando no máximo 100 MB de memória em operaç�
 - **Processamento:** Realizar a contagem de linhas e palavras da área de texto.
 - **Saída:** Quantidade de linhas e palavras exibidas abaixo da área de texto.
 
+**RF011 - Barra de Ferramentas**
+
+- **Descrição:** O sistema deve possuir uma barra de ferramentas com as opções principais: Arquivo, Editar, Desfazer, Refazer e Pesquisar.
+- **Entrada:** Interação do usuário via clique.
+- **Processamento:** Abrir submenus ou executar rotinas correspondentes ao clicar.
+- **Saída:** Menu correspondente exibido ou ação executada.
+
+**RF012 - Feedback Visual na Barra de Ferramentas**
+
+- **Descrição:** O sistema deve fornecer feedback visual ao clicar ou passar o mouse sobre os itens da barra de ferramentas.
+- **Entrada:** Interação via clique ou hover.
+- **Processamento:** Aplicar fundo de cor **Verde Secundário (#2A7A50)** ao passar o mouse e fundo de cor de **Destaque (#00A0B9)** ao clicar.
+- **Saída:** Realce visual apropriado para cada interação.
+
+**RF013 - Rodapé Dinâmico**
+
+- **Descrição:** O sistema deve exibir informações dinâmicas no rodapé da aplicação:
+  - Contagem de linhas e palavras em tempo real.
+  - Número de correspondências encontradas na pesquisa.
+  - Botões de navegação entre correspondências: Anterior e Próxima.
+- **Entrada:** Atualizações no texto ou ações de pesquisa.
+- **Processamento:** Atualizar as informações exibidas no rodapé conforme o contexto.
+- **Saída:** Rodapé com informações atualizadas.
+
+**RF014 - Ajuste de Tamanho do Texto**
+
+- **Descrição:** O rodapé deve conter um controle deslizante para ajuste dinâmico do tamanho do texto exibido na área de edição.
+- **Entrada:** Interação do usuário com o controle deslizante.
+- **Processamento:** Alterar o tamanho da fonte exibida na área de texto.
+- **Saída:** Texto exibido no tamanho selecionado.
+
+**RF015 - Destaque de Palavras na Pesquisa**
+
+- **Descrição:** O sistema deve destacar as correspondências encontradas em uma busca com a cor **Azul Seleção (#74C4EE)**.
+- **Entrada:** Texto ou palavra pesquisada pelo usuário.
+- **Processamento:** Localizar as correspondências no documento e aplicar destaque visual.
+- **Saída:** Correspondências destacadas no texto.
+
 ## **4. Requisitos Não Funcionais**
 
 **RNF001 - Usabilidade:**
@@ -151,3 +189,18 @@ O aplicativo deve ser leve, utilizando no máximo 100 MB de memória em operaç�
   1. O código deve ser dividido em pacotes por responsabilidade (e.g., model, view, controller).
   2. Componentes devem reutilizar classes e métodos do JavaFX sempre que possível (e.g., FXML, SceneBuilder).
   3. Devem ser usadas ferramentas como Javadoc para documentar a API interna.
+
+**RNF007 - Resolução Mínima**
+
+- **Descrição:** A interface do aplicativo deve ser otimizada para uma resolução mínima de 1024x768 pixels.
+- **Critério de Aceitação:** Todos os elementos da interface devem ser exibidos corretamente em uma tela com essa resolução.
+
+**RNF008 - Acessibilidade**
+
+- **Descrição:** Todos os elementos clicáveis devem possuir tooltips que expliquem suas funções ao passar o mouse.
+- **Critério de Aceitação:** Testes devem confirmar que os tooltips aparecem em no máximo 1 segundo após o hover.
+
+**RNF010 - Responsividade**
+
+- **Descrição:** A interface deve ser responsiva, ajustando a dimensão da área de texto e da janela principal conforme o tamanho da tela.
+- **Critério de Aceitação:** Testes devem confirmar que os elementos se ajustam corretamente em telas de diferentes tamanhos, mantendo a funcionalidade.
