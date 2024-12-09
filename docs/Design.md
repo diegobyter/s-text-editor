@@ -1,18 +1,18 @@
 # **Design Document**
 
 ## Índice
-1. [Introdução](#**introducao**)
-2. [Introdução](#2.-estrutura-de-design)
-   - [Paleta de Cores](#2.1.-paleta-de-cores)
-   - [Estrutura da Interface](#2.2.-estrutura-da-interface)
-3. [Introdução](#3.-fluxo-de-interacao)
-   - [Fluxo "Criar, Abrir, Salvar...](#3.1.-fluxo-"criar,-abrir,-salvar-e-salvar-documento-como")
-   - [Fluxo "Pesquisar Palavras"](#3.2.-fluxo-"pesquisar-palavras")
-4. [Introdução](#4.-design-responsivo)
-5. [Diagramas e Mockups](#5.-diagramas-e-mockups)
-6. [Considerações de Estilo](#6.-considerações-de-estilo)
+1. [Introdução](#1-introducao**)
+2. [Introdução](#2-estrutura-de-design)
+   - [Paleta de Cores](#21-paleta-de-cores)
+   - [Estrutura da Interface](#22-estrutura-da-interface)
+3. [Introdução](#3-fluxo-de-interacao)
+   - [Fluxo "Criar, Abrir, Salvar...](#31-fluxo-"criar,-abrir,-salvar-e-salvar-documento-como")
+   - [Fluxo "Pesquisar Palavras"](#32-fluxo-"pesquisar-palavras")
+4. [Introdução](#4-design-responsivo)
+5. [Diagramas e Mockups](#5-diagramas-e-mockups)
+6. [Considerações de Estilo](#6-considerações-de-estilo)
 
-## **Introdução**
+## **1. Introdução**
 
 Este documento descreve o design da interface do usuário para o projeto **S Text Editor**, um editor de texto simples, intuitivo e acessível. O design segue princípios de usabilidade, organização visual e harmonia cromática, com foco em melhorar a experiência do usuário.
 
