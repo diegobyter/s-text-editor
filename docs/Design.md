@@ -1,7 +1,7 @@
 # **Design Document**
 
 ## Índice
-1. [Introdução](#1.-introducao)
+1. [Introdução](#introducao)
 2. [Introdução](#2.-estrutura-de-design)
    - [Paleta de Cores](#2.1.-paleta-de-cores)
    - [Estrutura da Interface](#2.2.-estrutura-da-interface)
